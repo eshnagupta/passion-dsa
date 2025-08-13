@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  // no optimizeDeps.disabled here
+  base: '/passion-dsa/',   // <= IMPORTANT
 })
